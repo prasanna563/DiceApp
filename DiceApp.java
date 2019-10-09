@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class DiceApp extends Thread {
 
-    private static int MAX_SIZE = 10;
     private int rolls;
     private String name;
     private static Random random;
