@@ -24,8 +24,7 @@ public class DiceApp extends Thread {
     private int getRandomNumberInRange() {
 
         random = new Random();
-        int r = random.nextInt((6 - 1) + 1) + 1;
-        return r;
+        return random.nextInt((6 - 1) + 1) + 1;;
 
     }
 }
